@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="bg-black text-white px-8 md:px-16 lg:px-24">
-      <div className="container py-4 flex justify center md:justify-between items-center">
+    <nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? "bg-black/75 backdrop-blur-sm" : "bg-transparent"
+      } text-white px-8 md:px-16 lg:px-24`}
+    >
+      <div className="container py-4 flex justify-center md:justify-between items-center">
         <div className="text-2xl font-bold hidden md:inline">
           <a href="#home">Safid</a>{" "}
         </div>

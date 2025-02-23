@@ -3,7 +3,7 @@ import HeroImage from "../assets/hero.jpeg";
 
 export const Hero = () => {
   return (
-    <div className="bg-black text-white text-center py-32">
+    <div className="bg-black text-white text-center py-48" id="home">
       <img
         src={HeroImage}
         alt="HeroImage"
