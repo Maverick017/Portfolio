@@ -28,10 +28,10 @@ export const Footer = () => {
             <a href="#" className="text-gray-400 hover:text-white">
               <FaTwitter />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/in/safid-bin-azad-190967250/" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/Maverick017" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
           </div>

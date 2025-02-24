@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScrollAnimation } from 'Portfolio\src\hooks\UseScrollAnimation';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const ScrollReveal = ({ 
   children, 
