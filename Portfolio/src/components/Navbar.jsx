@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Button } from "./Button";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,6 +30,9 @@ export const Navbar = () => {
           <a href="#about" className="hover:text-gray-400">
             About
           </a>
+          <a href="#skills" className="hover:text-gray-400">
+            Skills
+          </a>
           <a href="#project" className="hover:text-gray-400">
             Projects
           </a>
@@ -36,9 +40,7 @@ export const Navbar = () => {
             Contact
           </a>
         </div>
-        <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer">
-          Contact Me
-        </button>
+        <Button variant="primary">Contact Me</Button>
       </div>
     </nav>
   );

@@ -1,25 +1,25 @@
 import React from "react";
 
-// const projects = [
-//     {
-//       id: 1,
-//       name: "Employee MS",
-//       technologies: "MERN Stack",
-//       github: "https://github.com/YouafKhan1",
-//     },
-//     {
-//       id: 2,
-//       name: "Blog App",
-//       technologies: "MERN Stack",
-//       github: "https://github.com/YouafKhan1",
-//     },
-//     {
-//       id: 3,
-//       name: "Book MS",
-//       technologies: "MERN Stack",
-//       github: "https://github.com/YouafKhan1",
-//     },
-//   ];
+const projects = [
+    {
+      id: 1,
+      name: "Movie website",
+      technologies: "React, Node",
+      github: "https://github.com/IIUC-Syndicate/Movie-Site",
+    },
+    {
+      id: 2,
+      name: "Tic-Tac-Toe Game",
+      technologies: "HTML, CSS, Javascript",
+      github: "https://github.com/Maverick017/Tic-Tac-Toe",
+    },
+    {
+      id: 3,
+      name: "BMI-Calculator",
+      technologies: "HTML, CSS, Javascript",
+      github: "https://github.com/Maverick017/BMI-Calculator",
+    },
+  ];
 
 export const Project = () => {
   return (
@@ -30,7 +30,7 @@ export const Project = () => {
             My Projects
           </span>
         </h2>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -48,7 +48,7 @@ export const Project = () => {
               </a>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );

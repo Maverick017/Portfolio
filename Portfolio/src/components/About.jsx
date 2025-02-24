@@ -3,9 +3,9 @@ import AboutImg from "../assets/about.jpeg";
 
 export const About = () => {
   return (
-    <div className="bg-black text-white py-20" id="about">
+    <div className="bg-black text-white py-28" id="about">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
-        <h2 className="text-4xl font-extrabold md:ml-96 mb-8 text-center">
+        <h2 className="text-4xl font-extrabold md:ml-96 mb-4 text-center">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
             About Me
           </span>
@@ -18,81 +18,19 @@ export const About = () => {
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              blanditiis distinctio velit veritatis exercitationem, reiciendis
-              nobis excepturi reprehenderit eos architecto eligendi laborum
-              animi voluptas voluptates optio ipsum fuga ullam et odio, sint
-              accusantium eaque minus minima. Corrupti fugit dolorum omnis
-              nostrum laborum eligendi iure, porro rem incidunt quidem quasi
-              assumenda Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Eaque eligendi voluptate dolore, modi ratione qui nulla quos
-              ipsam non ipsum voluptas aut, maiores earum, quia quibusdam ullam
-              mollitia officiis consectetur.
+              I’m a Computer Science student with a strong interest in
+              technology and problem-solving. Currently, I’m expanding my skills
+              in full-stack development, learning both frontend and backend
+              technologies to build efficient and scalable web applications. My
+              journey began with competitive programming in C and C++, which
+              sharpened my analytical thinking and problem-solving abilities.
+              Over time, I developed expertise in frontend development using
+              HTML, CSS, JavaScript, and frameworks like Tailwind CSS and
+              DaisyUI. With hands-on experience in React and Node.js, I am now
+              deepening my knowledge of full-stack development. Always eager to
+              learn and improve, I strive to create digital experiences that are
+              both functional and visually engaging.
             </p>
-            {/* <div className="space-y-4">
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
-                  HTML & CSS
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-10/12"
-                  ></div>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
-                  React JS
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-11/12"
-                  ></div>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
-                  Node JS
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div
-                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-                    transform transition-transform duration-300 hover:scale-105 w-9/12"
-                  ></div>
-                </div>
-              </div>
-            </div>
-            <div className="mt-12 flex justify-between text-center">
-              <div>
-                <h3
-                  className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500"
-                >
-                  3+
-                </h3>
-                <p>Years Experience</p>
-              </div>
-              <div>
-                <h3
-                  className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500"
-                >
-                  50+
-                </h3>
-                <p>Projects Completed</p>
-              </div>
-              <div>
-                <h3
-                  className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500"
-                >
-                  10+
-                </h3>
-                <p>Happy Clients</p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./Button";
 import HeroImage from "../assets/hero.jpeg";
 
 export const Hero = () => {
@@ -17,12 +18,18 @@ export const Hero = () => {
         , Programmer and Developer
       </h1>
       <p className="mt-4 text-lg text-gray-300 px-4 md:px-32">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis modi
-        placeat, inventore quos veritatis harum.
+      I’m passionate about building intuitive, responsive, and visually appealing web applications. 
       </p>
-      <div className="mt-8 space-x-4">
-        <button className="bg-gradient-to-r from-violet-400 to-blue-800 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer">Connect</button>
-        <button className="bg-gradient-to-r from-violet-400 to-red-800 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer">Resume</button>
+      <div className="mt-8">
+        <a
+          href="https://drive.google.com/file/d/13ghU4qCZJeE6xtd8khLiDBIYFXe2QUFw/view?usp=drivesdk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="secondary" className="px-8 py-3 text-lg">
+            Resume
+          </Button>
+        </a>
       </div>
     </div>
   );
