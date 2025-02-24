@@ -1,17 +1,17 @@
-import React from 'react'
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
-import { About } from './components/About'
-import { Skills } from './components/Skills'
-import { Project } from './components/Project'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
+import React from "react";
+import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import { About } from "./components/About";
+import { Skills } from "./components/Skills";
+import { Project } from "./components/Project";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
     <div className="relative">
       <Navbar />
-      <main className="pt-0"> 
+      <main className="pt-0">
         <Hero />
         <About />
         <Skills />
@@ -20,5 +20,5 @@ export const App = () => {
         <Footer />
       </main>
     </div>
-  )
-}
+  );
+};
