@@ -24,8 +24,13 @@ const projects = [
 
 export const Project = () => {
   return (
-    <div className="bg-black text-white py-20 md:py-40" id="project">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+    <div className="bg-gradient-to-b from-gray-900 to-black text-white py-20 md:py-32 relative" id="project">
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-[20%] -right-[10%] w-[500px] h-[500px] rounded-full bg-green-500/5 blur-3xl"></div>
+        <div className="absolute -bottom-[10%] left-[10%] w-[400px] h-[400px] rounded-full bg-blue-500/5 blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 relative z-10">
         <ScrollReveal>
           <h2 className="text-4xl font-extrabold mb-8 text-center">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
@@ -41,7 +46,7 @@ export const Project = () => {
               threshold={0.1}
               className={`delay-${index * 200}`}
             >
-              <div className="bg-gray-800 p-6 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
+              <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 p-6 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
                 <p className="text-gray-400 mb-4">{project.technologies}</p>
                 <a

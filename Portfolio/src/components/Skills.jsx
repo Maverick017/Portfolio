@@ -31,8 +31,13 @@ const skills = [
 
 export const Skills = () => {
   return (
-    <div className="bg-black text-white py-20 md:py-28" id="skills">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+    <div className="bg-gradient-to-b from-black to-gray-900 text-white py-20 md:py-28 relative" id="skills">
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-[10%] right-[5%] w-[400px] h-[400px] rounded-full bg-blue-500/5 blur-3xl"></div>
+        <div className="absolute bottom-[20%] -left-[5%] w-[450px] h-[450px] rounded-full bg-purple-500/5 blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 relative z-10">
         <ScrollReveal>
           <h2 className="text-4xl font-extrabold mb-12 text-center">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
