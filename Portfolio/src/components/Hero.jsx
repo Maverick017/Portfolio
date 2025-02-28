@@ -35,12 +35,12 @@ export const Hero = () => {
                 <a href="https://github.com/Maverick017" target="_blank" rel="noopener noreferrer" 
                    className="relative group">
                   <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-green-400 to-blue-400 blur opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
-                  <FaGithub className="relative z-10 text-2xl text-gray-400 group-hover:text-white transition-colors duration-300" />
+                  <FaGithub className="relative z-10 text-4xl text-gray-400 group-hover:text-white transition-colors duration-300" />
                 </a>
                 <a href="https://www.linkedin.com/in/safid-bin-azad-190967250/" target="_blank" rel="noopener noreferrer" 
                    className="relative group">
                   <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-green-500 to-blue-500 blur opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
-                  <FaLinkedin className="relative z-10 text-2xl text-gray-400 group-hover:text-white transition-colors duration-300" />
+                  <FaLinkedin className="relative z-10 text-4xl text-gray-400 group-hover:text-white transition-colors duration-300" />
                 </a>
                 <a href="#" target="_blank" rel="noopener noreferrer" 
                    className="relative group">
