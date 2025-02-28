@@ -1,9 +1,9 @@
 import React from 'react'
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8">
+    <footer className="bg-black text-white py-8" id='footer'>
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-4">
           <div className="flex-1 mb-4 md:mb-0">
@@ -22,17 +22,14 @@ export const Footer = () => {
             &copy; {new Date().getFullYear()} ANIR. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 text-3xl hover:text-white">
               <FaFacebook />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 text-3xl hover:text-white">
               <FaTwitter />
             </a>
-            <a href="https://www.linkedin.com/in/safid-bin-azad-190967250/" className="text-gray-400 hover:text-white">
-              <FaLinkedin />
-            </a>
-            <a href="https://github.com/Maverick017" className="text-gray-400 hover:text-white">
-              <FaGithub />
+            <a href="https://www.linkedin.com/in/safid-bin-azad-190967250/" className="text-gray-400 text-3xl hover:text-white">
+              <FaInstagram />
             </a>
           </div>
           <div className="flex space-x-4">

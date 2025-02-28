@@ -31,17 +31,14 @@ export const Navbar = () => {
 
         <div className="hidden md:flex items-center justify-between flex-1 pl-16">
           <div className="flex space-x-6 mx-auto">
-            <a href="#home" className="hover:text-gray-400">
-              Home
-            </a>
             <a href="#about" className="hover:text-gray-400">
               About
             </a>
+            <a href="#footer" className="hover:text-gray-400">
+            Social
+          </a>
             <a href="#skills" className="hover:text-gray-400">
               Skills
-            </a>
-            <a href="#project" className="hover:text-gray-400">
-              Projects
             </a>
           </div>
 
@@ -79,17 +76,14 @@ export const Navbar = () => {
             isOpen ? "flex" : "hidden"
           } md:hidden flex-col absolute top-16 left-0 right-0 bg-black/90 p-4 space-y-4 text-center`}
         >
-          <a href="#home" className="hover:text-gray-400">
-            Home
-          </a>
           <a href="#about" className="hover:text-gray-400">
             About
           </a>
+          <a href="#footer" className="hover:text-gray-400">
+            Social
+          </a>
           <a href="#skills" className="hover:text-gray-400">
             Skills
-          </a>
-          <a href="#project" className="hover:text-gray-400">
-            Projects
           </a>
           <a href="#contact" className="hover:text-gray-400">
             Contact Me

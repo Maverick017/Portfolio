@@ -7,6 +7,7 @@ import { Project } from "./components/Project";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
+
 export const App = () => {
   return (
     <div className="relative">
